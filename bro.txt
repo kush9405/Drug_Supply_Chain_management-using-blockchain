@@ -1,0 +1,8 @@
+await drugContract.createDrug(
+    1001, 
+    "NewDrugA", 
+    "PharmaCorp", 
+    Math.floor(Date.now() / 1000), 
+    "2024-12-31", 
+    { from: accounts[0] }
+);
